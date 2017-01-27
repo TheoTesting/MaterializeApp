@@ -1,0 +1,17 @@
+commit 0ee24c051a39f88e7d1822986ff9e26188592038
+Author: lheo22 <hrevillafernandez79@gmail.com>
+Date:   Thu Jan 26 22:59:39 2017 -0500
+
+    Se modifico el titulo del menubar y se agrago el item de Login al menubar
+
+commit 88f5cd4f2b2b6d463ad421a03453312475fa01e5
+Author: lheo22 <hrevillafernandez79@gmail.com>
+Date:   Thu Jan 26 22:42:31 2017 -0500
+
+    Se modifico el Copyrieht en el archivo index
+
+commit ed41f96816220c231eb1b0a515e1f766df6c972f
+Author: lheo22 <hrevillafernandez79@gmail.com>
+Date:   Thu Jan 26 22:38:46 2017 -0500
+
+    Iniciamos con el Proyecto de Materialize
