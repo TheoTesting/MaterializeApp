@@ -10,27 +10,8 @@
 </head>
 
 <body>
-    <header>
-        <div class="navbar-fixed">
-            <nav>
-                <div class="nav-wrapper #26c6da cyan lighten-1">
-                    <a href="#" class="brand-logo">&nbsp;&nbsp;&nbsp;Tuto Materialize</a>
-                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="#"><i class="left material-icons">home</i>Inicio</a></li>
-                        <li><a href="#"><i class="left material-icons">help</i>Acerca</a></li>
-                        <li><a href="#"><i class="left material-icons">contacts</i>Contacto</a></li>
-                        <li><a href="#"><i class="left material-icons">account_circle</i>Login</a></li>
-                    </ul>
-                    <ul id="mobile-demo" class="side-nav">
-                        <li><a href="#"><i class="left material-icons">home</i>Inicio</a></li>
-                        <li><a href="#"><i class="left material-icons">help</i>Acerca</a></li>
-                        <li><a href="#"><i class="left material-icons">contacts</i>Contacto</a></li>
-                        <li><a href="#"><i class="left material-icons">account_circle</i>Login</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+    <header id="header">
+
     </header>
 
     <section>
@@ -272,9 +253,12 @@
     </script>
     <script type="text/javascript" src="js/materialize.min.js">
     </script>
+
+    <script type="text/javascript" src="js/controller/menu.js">
+    </script>
+
     <script>
         $(document).ready(function() {
-            $(".button-collapse").sideNav();
             $('.slider').slider({
                 full_width: true
             });
